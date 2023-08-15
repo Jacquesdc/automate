@@ -1,6 +1,6 @@
-window.fetchOasisData = function(dValue) {
+window.fetchOasisData = function(dValue,DISTANCE_THRESHOLD) {
     const DISTANCE_THRESHOLD_MIN = 0;
-    const DISTANCE_THRESHOLD_MAX = 30;
+    const DISTANCE_THRESHOLD_MAX = DISTANCE_THRESHOLD;
     const MapSize = 400;
     const stepSize = 31;
     const MAX_CONCURRENT_REQUESTS = 20;
